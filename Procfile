@@ -1,0 +1,2 @@
+web: cd $HOME/heroku_output/SCHOOL-PROJECT-INTERFACE && dotnet ./SCHOOL-PROJECT-INTERFACE.dll --server.urls http://+:$PORT ${CORE_ENVIRONMENT}
+worker: cd $HOME/heroku_output/Worker && dotnet ./Worker.dll
